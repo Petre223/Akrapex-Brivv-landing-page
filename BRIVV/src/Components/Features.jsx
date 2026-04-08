@@ -33,18 +33,18 @@ const Features = () => {
   ];
 
   return (
-    <section className="bg-gray-50 min-h-screen py-16 px-6 mt-20">
+    <section className="bg-gray-50 min-h-screen py-16 px-6 mt-10">
       <div className="max-w-7xl mx-auto mb-12 align-baseline">
-        <h2 className="text-6xl md:text-4xl font-bold mb-4">
+        <h2 className="text-6xl md:text-4xl font-bold mb-8">
           Core Platform Features
         </h2>
-        <p className="text-gray-600 md:text-[20px] min-w-2xl mx-auto">
+        <p className="text-gray-400 md:text-[23px] min-w-2xl mx-auto">
           Nigerian real estate is complex. We’ve simplified it with technology
           built for trust.
         </p>
       </div>
 
-      <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-7xl mx-auto">
+      <div className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-7xl mx-auto mt-10">
         {features.map((feature, index) => (
           <div
             key={index}
