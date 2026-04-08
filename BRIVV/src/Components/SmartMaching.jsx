@@ -23,7 +23,7 @@ const SmartMaching = () => {
 
   return (
     <section className="bg-[#f8f7f4] py-20 px-6 min-h-screen flex items-center justify-center font-sans">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center rounded-2xl shadow-2xl p-15">
         
         {/* Left Column: Overlapping Cards */}
         <div className="relative h-[450px] w-full flex items-center justify-center lg:justify-start">
