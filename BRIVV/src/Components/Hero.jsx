@@ -3,7 +3,7 @@ import HeroSection from '../assets/Hero_img.png';
 
 const Hero = () => {
   return <>
-    <div className="max-w-7xl mx-auto flex justify-between items-center px-20 gap-64">
+    <div className="flex flex-col-reverse px-8 py-20 lg:grid lg:grid-cols-2 lg:gap-16 lg:place-item-center max-w-7xl mx-auto">
       <div className="bg-white">
         {/* Badge */}
         <div className="inline-flex items-center bg-green-100 text-green-700 text-sm px-4 py-1 rounded-full mb-6 mt-30">
@@ -49,11 +49,11 @@ const Hero = () => {
         </div>
       </div>
 
-      <div>
+      <div className='relative'>
         <img
           src={HeroSection}
           alt="Hero Image"
-          className="w-100 h-120 mt-20"
+          className="w-full mt-20"
         />
       </div>
     </div>
